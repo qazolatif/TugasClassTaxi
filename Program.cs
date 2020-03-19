@@ -7,9 +7,9 @@ namespace TugasClassTaxi
         {
             Taxi taxi = new Taxi();
             
-            taxi.DriverName = "Jono";
+            taxi.DriverName = "Toni";
             taxi.OnDuty = true;
-            taxi.NumPassenger = 10;
+            taxi.NumPassenger = 30;
             
             taxi.TaxiInfo();
             taxi.PickUpPassenger();
