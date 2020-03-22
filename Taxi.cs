@@ -10,7 +10,16 @@ namespace TugasClassTaxi
         public void TaxiInfo()
         {
             Console.WriteLine("Driver Name: {0}", DriverName);
-            Console.WriteLine("On Duty: {0}", OnDuty);
+            switch (OnDuty)
+            {
+                case true:
+                     Console.WriteLine("On Duty: Yes");
+                     break;
+            
+                default:
+                     Console.WriteLine("On Duty: No");
+                     break;
+            }
             Console.WriteLine("Number of Passenger: {0}", NumPassenger);
         }
     
